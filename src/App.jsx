@@ -760,7 +760,7 @@ function App() {
                             alt={recipe.title}
                             className="h-full w-full object-cover"
                           />
-                          <div className="absolute inset-x-0 bottom-0 flex flex-col gap-1 bg-gradient-to-t from-black/75 via-black/20 to-transparent p-3 text-white">
+                          <div className="absolute inset-x-0 bottom-0 flex flex-col gap-1 bg-gradient-to-transparent from-black/75 via-black/20 to-transparent p-3 text-white">
                             <span className="text-base font-bold">{recipe.title}</span>
                             <span className="text-xs opacity-90">By {recipe.author}</span>
                           </div>
